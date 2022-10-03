@@ -64,13 +64,13 @@ jQuery(document).ready(function ($) {
             function () {
                 $("#topbar").fadeIn('fast');
                 $(".navigation").fadeIn('fast')
-            }, 1500);
+            }, 100);
 
         setTimeout(
             function () {
-                $("#1920s").get(0).volume = 0;
-                $("#1920s").trigger("play");
-                $("#1920s").animate({
+                $("#mario").get(0).volume = 0;
+                $("#mario").trigger("play");
+                $("#mario").animate({
                     volume: 1
                 }, 1000);
 
@@ -103,9 +103,9 @@ jQuery(document).ready(function ($) {
 
         setTimeout(
             function () {
-                $("#1920s").get(0).volume = 0;
-                $("#1920s").trigger("play");
-                $("#1920s").animate({
+                $("#mario").get(0).volume = 0;
+                $("#mario").trigger("play");
+                $("#mario").animate({
                     volume: 1
                 }, 1000);
 

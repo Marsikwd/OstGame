@@ -270,11 +270,8 @@ li.noborder.light-menu {
 }
 
 .landingpage-interaction {
-	bottom: 130px;
-	margin: auto;
-	position: absolute;
-	left: 0;
-	right: 0;
+	margin: 0 auto;
+	padding-top: 150px;
 	z-index: 3;
 	width: 237px;
 }
@@ -473,7 +470,7 @@ input#round:focus {
 	visibility: hidden;
 }
 
-/*SLIDES*/
+
 #slide0 {
 	position: relative;
 }
@@ -566,7 +563,7 @@ input#round:focus {
 	background-attachment: fixed;
 }
 
-/*Other*/
+
 .landingpage {
 	width: 100%;
 	height: 100%;
@@ -840,7 +837,12 @@ input#round:focus {
 	margin-bottom: 10px;
 }
 
-/* Landscape phone to portrait tablet */
+@media screen and (max-width: 1410px) {
+	.mario {
+		display: none;
+	}
+}
+
 @media only screen and (min-width: 480px) and (max-width: 768px) {
 	.noscroll {
 		position: static;
@@ -949,7 +951,6 @@ input#round:focus {
 	}
 }
 
-/* Landscape phone to portrait tablet */
 @media (min-width: 480px) and (max-width: 979px) {
 	#mute {
 		left: 25px;

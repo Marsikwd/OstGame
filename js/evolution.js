@@ -73,64 +73,48 @@ $(document).ready(function () {
         })
 
 
-        $("#1920s").bind("ended", function () {
+        $("#mario").bind("ended", function () {
             $("html,body").animate({
                 scrollTop: $("#slide2").offset().top
             }, 1500, 'easeInOutQuint');
             $("#start").removeClass('active')
         });
-        $("#1930s").bind("ended", function () {
+        $("#theelderscrollsvskyrim").bind("ended", function () {
             $("html,body").animate({
                 scrollTop: $("#slide3").offset().top
             }, 1500, 'easeInOutQuint');
         });
-        $("#1940s").bind("ended", function () {
+        $("#thewitcher3").bind("ended", function () {
 
             $("html,body").animate({
                 scrollTop: $("#slide4").offset().top
             }, 1500, 'easeInOutQuint');
         });
-        $("#1950s").bind("ended", function () {
+        $("#godofwar").bind("ended", function () {
             $("html,body").animate({
                 scrollTop: $("#slide5").offset().top
             }, 1500, 'easeInOutQuint');
         });
-        $("#1960s").bind("ended", function () {
+        $("#assasin").bind("ended", function () {
             $("html,body").animate({
                 scrollTop: $("#slide6").offset().top
             }, 1500, 'easeInOutQuint');
         });
-        $("#1970s").bind("ended", function () {
+        $("#mafia3").bind("ended", function () {
             $("html,body").animate({
                 scrollTop: $("#slide7").offset().top
             }, 1500, 'easeInOutQuint');
         });
-        $("#1980s").bind("ended", function () {
+        $("#persona").bind("ended", function () {
             $("html,body").animate({
                 scrollTop: $("#slide8").offset().top
             }, 1500, 'easeInOutQuint');
         });
-        $("#1990s").bind("ended", function () {
+        $("#сallofd").bind("ended", function () {
             $("html,body").animate({
                 scrollTop: $("#slide9").offset().top
             }, 1500, 'easeInOutQuint');
         });
-        $("#2000s").bind("ended", function () {
-            $("html,body").animate({
-                scrollTop: $("#slide10").offset().top
-            }, 1500, 'easeInOutQuint');
-        });
-        $("#2010s").bind("ended", function () {
-            $("html,body").animate({
-                scrollTop: $("#slide11").offset().top
-            }, 1500, 'easeInOutQuint');
-        });
-        $("#2020s").bind("ended", function () {
-            $("html,body").animate({
-                scrollTop: $("#slide12").offset().top
-            }, 1500, 'easeInOutQuint');
-        });
-
         if ($('#mute').hasClass('muted')) {
             $('audio.active').trigger("pause");
             $('audio').animate({
