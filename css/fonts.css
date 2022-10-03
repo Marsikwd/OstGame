@@ -1,0 +1,169 @@
+@font-face {
+	font-family: "Assasin";
+	src: url("../fonts/Assassins.woff2") format("woff2"),
+		url("../fonts/Assassins.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Call Of Duty";
+	src: url("../fonts/Call_of_Ops_Duty.woff2") format("woff2"),
+		url("../fonts/Call_of_Ops_Duty.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Ellderscroll";
+	src: url("../fonts/elderscroll.woff2") format("woff2"),
+		url("../fonts/elderscroll.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Good of War";
+	src: url("../fonts/GODOFWAR.woff2") format("woff2"),
+		url("../fonts/GODOFWAR.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Persona 5";
+	src: url("../fonts/persona5.woff2") format("woff2"),
+		url("../fonts/persona5.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Super Mario";
+	src: url("../fonts/supermario.woff2") format("woff2"),
+		url("../fonts/supermario.woff") format("woff");
+}
+
+
+@font-face {
+	font-family: "Witcher 3";
+	src: url("../fonts/Witcher3.woff2") format("woff2"),
+		url("../fonts/Witcher3.woff") format("woff");
+}
+
+.assasin {
+	font-family: "Assasin";
+	font-weight: bold;
+}
+
+.assasin .year-inner {
+	color: #3dc3aa !important;
+	-webkit-text-shadow: 0px 4px 2px rgba(0, 0, 0, 1);
+	-moz-text-shadow: 0px 4px 2px rgba(0, 0, 0, 1);
+	text-shadow: 0px 4px 2px rgba(0, 0, 0, 1);
+}
+
+.assasin .year-desc {
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.cld {
+	font-family: "Call Of Duty";
+}
+
+.cld .year-inner {
+	background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: aitf 80s linear infinite;
+	-webkit-animation: aitf 80s linear infinite;
+	transform: translate3d(0, 0, 0);
+	-webkit-transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	
+}
+
+@keyframes aitf {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	100% {
+		background-position: 100% 50%;
+	}
+}
+
+.es {
+	font-family: "Ellderscroll";
+}
+
+.es .year-inner {
+	background: url(https://i.ibb.co/f18CN9R/ice-texture3006.jpg) repeat;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.6);
+}
+
+.gofw {
+	font-family: "Good of War";
+}
+
+.gofw .year-inner {
+	background: rgb(0, 0, 0);
+	background: linear-gradient(0deg, rgba(139, 139, 139, 1) 30%, rgba(255, 255, 255, 1) 70%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-shadow: 0px 0px 7px rgba(0, 0, 0, 1);
+	-moz-text-shadow: 0px 0px 7px rgba(0, 0, 0, 1);
+	text-shadow: 0px px 7px rgba(0, 0, 0, 1);
+}
+
+.p5 {
+	font-family: "Persona 5";
+}
+
+.p5 .year-desc {
+	font-size: 30px;
+	font-weight: 900;
+	
+}
+
+.sm .year-inner {
+	font-family: "Super Mario";
+}
+
+.sm {
+	-webkit-text-shadow: 0px 4px 2px rgba(0, 0, 0, 1);
+-moz-text-shadow: 0px 4px 2px rgba(0, 0, 0, 1);
+text-shadow: 0px 4px 2px rgba(0, 0, 0, 1);
+}
+
+.red {
+	color: #e5270f;
+}
+
+.green {
+	color: #46ad37;
+}
+
+.yellow {
+	color: #ffd203;
+}
+
+.blue {
+	color: #019fde;
+}
+
+.w3 {
+	font-family: "Witcher 3";
+}
+
+.w3 .year-inner {
+	background: rgb(134, 147, 171);
+	background: linear-gradient(0deg, rgba(134, 147, 171, 1) 17%, rgba(210, 223, 233, 1) 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+}
+
+.img-witcher {
+	width: 20%;
+}
