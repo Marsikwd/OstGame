@@ -600,7 +600,7 @@ input#round:focus {
 	margin: 20px auto 0 auto;
 }
 
-.mario {
+.OstGame {
 	position: absolute;
 	bottom: -5px;
 	width: 250px;
@@ -629,7 +629,7 @@ input#round:focus {
 
 }
 
-.mario:hover .overflow-m {
+.OstGame:hover .overflow-m {
 	opacity: 1;
 }
 
